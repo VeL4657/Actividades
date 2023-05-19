@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TTicketMass.css">
+    <title>TicketMaster</title>
+</head>
+<body>
+    <div id="titulo">ticketmaster</div>
+    <br>
+    <img src="c.jpg" alt="imc" width="360" height="225">
+    <img src="c1.jpg" alt="imc1" width="360" height="225">
+    <img src="c2.jpg" alt="imc2" width="360" height="225">
+    <img src="c3.jpg" alt="imc3" width="360" height="225">
+    <img src="c4.jpg" alt="imc4" width="360" height="225">
+    <br>
+    <p>
+        Ingresa tus datos para continuar con la entrega de tus boletos:
+    </p>
+    <br>
+    <center><div id="formu">
+        <form  action="TTicketMa.php" method="post" target="_blank">
+            <center><legend>Datos del evento:</legend></center>
+            <br>
+            <label for="Nombre">Nombre:</label>
+                <input type="text" name="nombre" required>
+            <label for="Apellido">Apellido:</label>
+                <input type="text" name="apellido" required>
+            <br>
+            <br>
+                <label for="fe">Fecha del evento:</label>
+                    <input type="date" name="fech" required>
+
+            <label for="Artistaob">Artista o grupo:</label>
+                <select name="Artistaob" id="Artistaob">
+                    <option value="Zoe">Zoe</option>
+                    <option value="TheWeeknd">TheWeeknd</option>
+                    <option value="Jarabe de Palo">Jarabe de Palo</option>
+                    <option value="Bad Bunny">Bad Bunny</option>
+                </select>
+            <br>
+            <br>   
+            <label for="zona">Zona:</label>
+                <select name="zona" id="zona">
+                    <option value="Gran Vip">Gran Vip</option>
+                    <option value="Vip">Vip</option>
+                    <option value="Oro">Oro</option>
+                    <option value="Plata">Plata</option>
+                </select>
+            <label for="boletos">Boletos(max 15):</label>
+            <input type="number" name="boletos" required>
+            <br>
+            <br>
+            <label for="lugar">Lugar:</label>
+            <br>
+            <input type="radio" value="Auditorio" name="lugar"required>Auditorio
+            <br>
+            <input type="radio" value="Palacio de los Deportes" name="lugar">Palacio de los Deportes
+            <br>
+            <input type="radio" value="Foro Sol" name="lugar">Foro Sol
+            <br>
+            <input type="radio" value="Teatro Metropolitan" name="lugar">Teatro Metropolitan
+            <br>
+            <br>
+            <label for="extras">Extras:</label>
+            <br>
+            <input type="checkbox" name="Ex1" value="Check pktcomi">Paquete de comida
+            <br>
+            <input type="checkbox" name="Ex2" value="Check bebidas">Combo Bebidas
+            <br>
+            <input type="checkbox" name="Ex3" value="Check tdn1">Todo en 1
+            <br>
+            <br>
+            <button type="submit">Comprar</button>
+            <button type="reset">Borrar selección</button>
+        </form>
+    </div></center>
+    <br>
+    <br>
+</body>
+</html>

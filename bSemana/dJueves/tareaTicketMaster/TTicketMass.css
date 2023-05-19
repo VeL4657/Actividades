@@ -1,0 +1,26 @@
+body
+{
+    background-image: url();
+}
+#titulo
+{
+    height: 75px;
+    background-color: #0267d5;
+    color: white;
+    font-size: xx-large;
+}
+p
+{
+    font-size: larger;
+}
+#formu
+{
+    width: 500px;
+    background-color: #0267d5;
+    color: white;
+}
+form
+{
+    text-align: justify;
+}
+/**/
