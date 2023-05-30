@@ -1,0 +1,279 @@
+@font-face
+{
+    font-family: "Tequilla Sunrise";
+    src: url(../../../statics/fonts/Tequilla\ Sunrise.ttf);
+}
+@font-face
+{
+    font-family: "Purple Smile";
+    src: url(../../../statics/fonts/Purple\ Smile.ttf);
+}
+/* Barrita con redes sociales*/
+#barraina
+{
+    position: sticky;
+    top: 0;
+    background-color: #3e6670 ;
+    border-radius: 100px 100px 100px 100px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    z-index: 4;
+}
+body
+{
+    background-image: url(https://i.pinimg.com/originals/d1/b0/80/d1b08069701c708cd7374958df129af9.png);
+    font-family: "Purple Smile";
+    color: #06FAFF;
+    -webkit-text-stroke: 1px black;
+  
+}
+
+#titulo
+{
+    font-family:"Tequilla Sunrise",serif;
+    font-size: xx-large;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: 0.3px black;
+    
+}
+#name
+{
+    display: flex;
+    justify-content: center;
+
+}
+#contgus 
+{
+    background-color: transparent;
+    position: absolute;
+    top: 350px;
+    left: 200px;
+    width: 400px;
+    z-index: 0;
+    transition: transform 500ms;
+}
+#backcontgus
+{
+    background-color: transparent;
+    position: absolute;
+    top: 350px;
+    left: 200px;
+    width: 400px;
+    z-index: -1;
+}
+#ibas
+{
+    width: 400px;
+    border-radius: 25px 25px 25px 25px;
+}
+#contgus:hover
+{
+    transform: translate(-200px,-200px);
+}
+#contgus2
+{
+    background-color: transparent;
+    position: absolute;
+    top: 350px;
+    right: 200px;
+    width: 400px;
+    z-index: 0;
+    transition: transform 500ms;
+}
+#backcontgus2
+{
+    background-color: transparent;
+    position: absolute;
+    top: 350px;
+    right: 200px;
+    width: 400px;
+    z-index: -1;
+}
+#ium
+{
+    width: 400px;
+    height: 200px;
+    border-radius: 25px 25px 25px 25px;
+}
+#contgus2:hover
+{
+    transform: translate(200px,-200px);
+}
+#gustos
+{
+
+    background-color: white;
+    width: 400px;
+    border-radius: 25px 25px 25px 25px;
+    border: 5px solid black;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    
+}
+
+#imgyo
+{
+    border-radius: 100px 100px 100px 100px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    margin: auto;
+}
+.listas
+{
+    text-align: center;
+    background-color: ghostwhite;
+    width: 400px;
+    padding: 50px;
+    border-radius: 100px 100px 100px 100px;
+    border: 5px solid black;
+}
+.contenedor
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+}
+.timp
+{
+    text-align: center;
+}
+a.cambco:hover
+{
+    color: #06FAFF;
+}
+#conttabla
+{
+    display: flex;
+    justify-content: center;
+   
+}
+#tabla:hover
+{
+    background-color: white;
+}
+#Temas
+{
+    color: white;
+    width: 400px;
+    height:100px;
+    border-radius: 25px 25px 25px 25px; 
+    background-color: #06FAFF;
+    border: 7px dotted #3e6670;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+#TT
+{
+    text-align: center;
+}
+#dibujo
+{
+    background-color: #C4E8F6;
+    width: 700px;
+    height: 800px;
+    border-radius: 25px 25px 25px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#cuerpo
+{
+    background-color: #bdecb6;
+    width: 430px;
+    height: 400px;
+    border-radius: 50%;
+    z-index: 0;
+    position: absolute;
+    border: 1px solid black;
+}
+#cuerpoat
+{
+    background-color: #bdecb6;
+    width: 429px;
+    height: 399px;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+}
+#ojoi
+{
+    background-color: #bdecb6;
+    width: 111px;
+    height: 104px;
+    border-radius: 50%;
+    position: absolute;
+    top: 18vh;
+    left: 17vh;
+    z-index: 1;
+    border: 1px solid black;
+
+}
+#ojod
+{
+    background-color: #bdecb6;
+    width: 111px;
+    height: 104px;
+    border-radius: 50%;
+    position: absolute;
+    top: 18vh;
+    right: 17vh;
+    z-index: 1;
+    border: 1px solid black;
+
+}
+#pupii
+{
+    background-color: black;
+    width: 47px;
+    height: 42px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20vh;
+    left: 21vh;
+    z-index: 3;
+}
+#pupid
+{
+    background-color: black;
+    width: 47px;
+    height: 42px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20vh;
+    right: 21vh;
+    z-index: 3;
+}
+#panza
+{
+    background-color: #FDECDA;
+    width: 375px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 23vh;
+    z-index: 3;
+    border: 1px solid black;
+}
+#boca
+{
+    border: 6px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    position: absolute;
+    top: 22vh;
+    z-index: 3;
+}
