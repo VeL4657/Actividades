@@ -1,0 +1,589 @@
+/*Fuentes*/
+@font-face
+{
+    font-family: "prototype";
+    src: url('./fonts/prototype/Prototype.ttf');
+}
+
+
+body
+{
+    background-color: #1a1b1e;
+}
+#barr
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #101114;
+    z-index: 4;
+        
+}
+#hbarr
+{
+    height: 75px;
+    width: 250px;
+    background-color: #101114;
+}
+#imgbarr
+{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-image: url(./multimedia/fotodpe35.jpeg);
+}
+#nomusu
+{
+    font-family: "prototype", serif;
+    font-size:small;
+    position: absolute;
+    color: #ffffff;
+    top: 15px;
+    left: 55px;
+    height: 10px;
+    width: 25px;
+}
+#ultimate
+{
+    font-family: "prototype", serif;
+    font-size:x-small;
+    text-align: center;
+    position: absolute;
+    background-color: #ffffff;
+    color: #101114;
+    top: 30px;
+    left: 55px;
+    height: 10px;
+    width: 55px;
+}
+#imgcons
+{
+    position: absolute;
+    top: 12px;
+    left: 150px;
+    height: 35px;
+    width: 35px;
+    background-image: url(./multimedia/consi30.png);
+}
+#imgn
+{
+    position: absolute;
+    top: 10px;
+    left: 190px;
+    height: 34px;
+    width: 40px;
+    background-image: url(./multimedia/notii40b.jpeg);
+}
+.conttext
+{
+    position: absolute;
+    left: 10px;
+    height: 45px;
+    width: 230px;
+    background-color: #101114;
+
+}
+.conttext:hover
+{
+    background-color: #58595b;
+    border-radius: 10px;
+}
+#imgGmp
+{
+    position: absolute;
+    top: 7.5px;
+    left: 15px;
+    height: 30px;
+    width: 27px;
+    background-image: url(./multimedia/igmpf1.png); 
+}
+#textgmp
+{
+    position: absolute;
+    font-family: "prototype", serif;
+    font-size:x-small;
+    text-align: center;
+    color: #ffffff;
+    font-family: "prototype", serif;
+    font-size:small;
+    text-align: center;
+    top: 15px;
+    left: 55px;
+}
+.conttext1
+{
+    position: absolute;
+    left: 10px;
+    top: 120px;
+    height: 45px;
+    width: 230px;
+    background-color: #101114;
+
+}
+.conttext1:hover
+{
+    background-color: #58595b;
+    border-radius: 10px;
+}
+#imgmib
+{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    height: 40px;
+    width: 38px;
+    background-image: url(./multimedia/mib1f.png); 
+}
+#textmib
+{
+    position: absolute;
+    font-family: "prototype", serif;
+    font-size:x-small;
+    text-align: center;
+    color: #ffffff;
+    font-family: "prototype", serif;
+    font-size:small;
+    text-align: center;
+    top: 15px;
+    left: 55px;
+}
+.conttext2
+{
+    position: absolute;
+    left: 10px;
+    top: 165px;
+    height: 45px;
+    width: 230px;
+    background-color: #101114;
+
+}
+.conttext2:hover
+{
+    background-color: #58595b;
+    border-radius: 10px;
+}
+#imgxbcg
+{
+    position: absolute;
+    top: 5px;
+    left: 13px;
+    height: 35px;
+    width: 39px;
+    background-image: url(./multimedia/cloifn.png); 
+}
+#textxbcg
+{
+    position: absolute;
+    font-family: "prototype", serif;
+    font-size:x-small;
+    text-align: center;
+    color: #ffffff;
+    font-family: "prototype", serif;
+    font-size:small;
+    text-align: center;
+    top: 15px;
+    left: 55px;
+}
+.conttext3
+{
+    position: absolute;
+    left: 10px;
+    top: 210px;
+    height: 45px;
+    width: 230px;
+    background-color: #101114;
+
+}
+.conttext3:hover
+{
+    background-color: #58595b;
+    border-radius: 10px;
+}
+#imgcom
+{
+    position: absolute;
+    top: 5px;
+    left: 13px;
+    height: 35px;
+    width: 39px;
+    background-image: url(./multimedia/comif.png); 
+}
+#textcom
+{
+    position: absolute;
+    font-family: "prototype", serif;
+    font-size:x-small;
+    text-align: center;
+    color: #ffffff;
+    font-family: "prototype", serif;
+    font-size:small;
+    text-align: center;
+    top: 15px;
+    left: 55px;
+}
+.conttext4
+{
+    position: absolute;
+    left: 10px;
+    top: 255px;
+    height: 45px;
+    width: 230px;
+    background-color: #58595b;
+    border-radius: 10px;
+
+}
+.conttext4:hover
+{
+    background-color: #58595b;
+    border-radius: 10px;
+}
+#imgst
+{
+    position: absolute;
+    top: 5px;
+    left: 13px;
+    height: 35px;
+    width: 39px;
+    background-image: url(./multimedia/storisf.png); 
+}
+#textst
+{
+    position: absolute;
+    font-family: "prototype", serif;
+    font-size:x-small;
+    text-align: center;
+    color: #ffffff;
+    font-family: "prototype", serif;
+    font-size:small;
+    text-align: center;
+    top: 15px;
+    left: 55px;
+}
+#imgj
+{
+    position: absolute;
+    left: 5px;
+    top: 330px;
+    width: 240px;
+    height: 437px;
+    background-image: url(./multimedia/imgj.jpeg);
+}
+#cola
+{
+    position: absolute;
+    left: 15px;
+    top: 900px;
+    width: 231px;
+    height: 89px;
+    background-image: url(./multimedia/icola.jpeg);
+}
+#contenedor
+{
+    position: fixed;
+    left: 251px;
+    top: 0;
+    width: 1800px;
+    height: 100%;
+    background-color: #1a1b1e;
+}
+#contenanun
+{
+    font-family: "prototype", serif;
+    font-size:xx-large;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left:400px;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./multimedia/ifondj.jpg);
+}
+#contenanun1
+{
+    position: absolute;
+    top: 50px;
+    left:-150px;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.767)), url(./multimedia/minef.jpg);
+}
+#contenanun2
+{
+    position: absolute;
+    top: 50px;
+    left:1250px;
+    width: 524px;
+    height: 300px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.767)), url(./multimedia/cupi.jpg);
+}
+#flecpi
+{
+    position: absolute;
+    top: 375px;
+    left:710px;
+    width: 159px;
+    height: 41px;
+    background-image: url(./multimedia/flecpi.jpeg);
+}
+#contanima
+{
+    position: absolute;
+    top: 450px;
+    left:50px;
+    width: 1500px;
+    height: 500px;
+    background-color:#25282c;
+    border-radius: 10px;
+
+}
+#contani1
+{
+    position: absolute;
+    background-image: url(./multimedia/cupfan.jpg);
+    top: 50px;
+    left: 50px;
+    width: 433.33px;
+    height: 300px;
+    border-radius: 10px;
+}
+#cup
+{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 131px;
+    height: 120px;
+    background-image: url(./multimedia/cup1.png);
+    animation-name: cupan;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    /*animation-direction: alternate;*/
+
+}
+@keyframes cupan
+{
+    0%{
+        width: 131px;
+        height: 120px;
+        background-image: url(./multimedia/cup1.png);
+    }
+    100%{
+        width: 110px;
+        height: 120px;
+        background-image: url(./multimedia/cup.png);
+    }
+}
+#cupdis
+{
+    position: absolute;
+    bottom: 110px;
+    left: 120px;
+    width: 110px;
+    height: 20px;
+    background-image: url(./multimedia/dispcu.png); 
+    animation-name: movimiento;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: lineal;
+    animation-iteration-count: infinite;
+    /*animation-direction: alternate;*/
+    
+}
+@keyframes movimiento
+{
+    0%{left: 120px;}
+        100%{left: 330px;}
+}
+#contani2
+{
+    position: absolute;
+    background-image: url(./multimedia/fmainan.jpg);
+    top: 50px;
+    left: 533.33px;
+    width: 433.33px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#steve
+{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    width: 61px;
+    height: 130px;
+    background-image: url(./multimedia/stevep.png);
+}
+#steve:hover
+{
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    transition-timing-function: linear;
+    bottom: 50px;
+    right: 50px;
+    width: 71px;
+    height: 130px;
+    background-image: url(./multimedia/steves.png);
+}
+#araña
+{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    width: 145px;
+    height: 100px;
+    background-image: url(./multimedia/araña.png);
+}
+#araña:hover
+{
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+    transition-timing-function: linear;
+    right: 50px;
+    transform: scale(1.5);
+}
+
+#contani3
+{
+    position: absolute;
+    background-image: url(./multimedia/rockfond.jpg);
+    top: 50px;
+    left: 1016.66px;
+    width: 433.33px;
+    height: 300px;
+    border-radius: 10px;
+}
+#carro
+{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 191px;
+    height: 100px;
+    background-image: url(./multimedia/carro.png);
+    animation-name: acercar;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes acercar
+{
+    0%{top: 30px;}
+    50%{transform: scale(1.5);}
+    100%{top: 120px;
+        transform: scale(2);}
+}
+#balon
+{
+    position: absolute;
+    top: 10px;
+    left: 115px;
+    width: 201px;
+    height: 200px;
+    background-image: url(./multimedia/balon.png);
+    animation-name: alejar;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes alejar
+{
+    0%{top: 30px;}
+    50%{transform: scale(0.5) rotate(360deg);}
+    100%{bottom: 120px;
+        transform: scale(0.25) rotate(360deg);
+        left: 210px;}
+}
+
+#con1lo
+{
+    position: absolute;
+    top: 0;
+    left: 165px;
+    width: 201px;
+    height: 50px;
+    background-image: url(./multimedia/cupl.png);
+}
+#con2lo
+{
+    position: absolute;
+    top: -25px;
+    left: 650px;
+    width: 178px;
+    height: 100px;
+    background-image: url(./multimedia/Minecraftl.png);
+}
+    
+#con3lo
+{
+    position: absolute;
+    top: -25px;
+    left: 1140px;
+    width: 178px;
+    height: 100px;
+    background-image: url(./multimedia/Rocketl.png);
+}
+#precios
+{
+    position: absolute;
+    top: 850px;
+    left:50px;
+    width: 1500px;
+    height: 200px;
+    background-color:#25282c;
+    border-radius: 10px;
+}
+#cupp
+{
+    font-family: "prototype", serif;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    background-color: #58595b;
+    top: 350px;
+    left: 50px;
+    width: 433.33px;
+    height: 100px;
+    border-radius: 10px;
+}
+#minep
+{
+    font-family: "prototype", serif;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    background-color: #58595b;
+    top: 350px;
+    left: 533.33px;
+    width: 433.33px;
+    height: 100px;
+    border-radius: 10px;
+}
+#rockp
+{
+    font-family: "prototype", serif;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    background-color: #58595b;
+    top: 350px;
+    left: 1016.66px;
+    width: 433.33px;
+    height: 100px;
+    border-radius: 10px;
+}
+    
